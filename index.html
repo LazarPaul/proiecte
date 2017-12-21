@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>my website</title>
+		<style>
+body{
+	background-image: url("textura.jpg");
+}
+#container{
+	background-color:#a0a0a0;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header
+{
+	background-color: #003366;
+	color: white;
+	text-align: center;
+	min-height: 110px;
+}
+#image
+{
+	float:left;
+	width: 110px;
+}
+
+#buton {
+    background-color: #996600;
+    color: white;
+	padding: 16px 100px 16px 100px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#content a {
+    color: black;
+    padding: 6px 16px 6px 50px;
+    text-decoration: none;
+    display: block;
+}
+#content a:hover {background-color: #f1f1f1}
+
+#dropdown:hover #content {
+    display: block;
+}
+
+#dropdown:hover #buton {
+    background-color: orange;
+}
+#dropdown:hover #buton {
+
+}
+
+#buton2 {
+    background-color: #996600;
+    color: white;
+	padding: 16px 100px 16px 100px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#dropdown2 {
+    position: relative;
+    display:inline-block;
+}
+
+#content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#content2 a {
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#content2 a:hover {background-color: #f1f1f1}
+
+#dropdown2:hover #content2 {
+    display: block;
+}
+
+#dropdown2:hover #buton2 {
+    background-color: orange;
+}
+#buton3 {
+    background-color: #996600;
+    color: white;
+	padding: 16px 97px 16px 97px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+#content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#content3 a {
+    color: black;
+    padding: 6px 16px 6px 50px;
+    text-decoration: none;
+    display: block;
+}
+
+#content3 a:hover {background-color: #f1f1f1}
+
+#dropdown3:hover #content3 {
+    display: block;
+}
+
+#dropdown3:hover #buton3 {
+    background-color: orange;
+}
+#scoala{
+	width:600px;
+	margin: auto;
+	position:relative;
+
+}
+#scari{
+	width:200px;
+	display:inline-block;
+	position: relative;
+}
+#teatru{
+	width:200px;
+	display:inline-block;
+	position: relative;
+}
+#lab{
+	width:190px;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+}
+#footer{
+	color:grey;
+	text-align: right;
+	float:bottom;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("search.png");
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+	</style>
+	</head>
+
+	<body>
+	  <div id="container">
+		<div id="header">
+		<img id="image" src="eg.png" alt="Emanuil"/>
+		 <h1>COLEGIUL NATIONAL EMANUIL GOJDU <br/><font size=5>Oradea</font></h1>
+		 <form>
+  <input type="text" name="search" placeholder="Search.." align="right">
+</form>
+		</div>
+		<div id="continut">
+			<div id="dropdown">
+				<button id="buton">Meniu</button>
+				<div id="content">
+					<a href="index.html">Home</a>
+					<a href="harta.html">Harta site-ului</a>
+					<a href="http://www.lego.rdsor.ro/prezentare.html">Prezentare</a>
+					<a href="http://www.lego.rdsor.ro/management.html">Management</a>
+					<a href="http://www.lego.rdsor.ro/curriculum.html">Curriculum</a>
+					<a href="http://www.lego.rdsor.ro/resurse.html">Resurse umane</a>
+					<a href="http://www.lego.rdsor.ro/resure_financiare.html">Resurse financiare si materiale</a>
+					<a href="http://www.lego.rdsor.ro/re_comunitate.html">Relatii cu comunitatea</a>
+					<a href="http://www.lego.rdsor.ro/evenimente.html">Evenimente</a>
+					<a href="http://www.lego.rdsor.ro/oradea.html">Oradea</a>
+			</div>
+		</div>
+			<div id="dropdown2">
+				<button id="buton2">Anunturi</button>
+				<div id="content2">
+					<a href="http://www.lego.rdsor.ro/delf.html">Programarea candidaţilor pentru examenul DELF 9-10 decembrie 2017</a>
+					<a href="http://www.lego.rdsor.ro/Rezultate_Gojdu_Elevi_SELECTATI.pdf">Rezultate selecţie Proiect Portugalia</a>
+					<a href="http://www.lego.rdsor.ro/ACSL/ACSL.pdf">ACSL selectie pentru concurs international de informatica</a>
+					<a href="http://www.lego.rdsor.ro/hailaolimat.html">HAI LA OLIMPIADA! matematica</a>
+					<a href="http://www.lego.rdsor.ro/orar2017_2018.html">ORAR elevi si profesori</a>
+					<a href="http://www.lego.rdsor.ro/elevi.html">Repartizarea elevilor in clasele a IX-a</a>
+					<a href="http://www.lego.rdsor.ro/elevi.html">Repartizarea elevilor in clasele a V-a</a>
+					<a href="http://www.lego.rdsor.ro/elevi.html">Repartizarea colectivelor de elevi, a dirigintilor si a salilor de clasa</a>
+					<a href="http://www.lego.rdsor.ro/CP.html">Achizitionare uniforme</a>
+				</div>
+			</div>
+
+			<div id="dropdown3">
+				<button id="buton3"> Legaturi Utile</button>
+				<div id="content3">
+					<a href="http://www.lego.rdsor.ro/ong2017/index.html">Olimpiada Nationala de Geografie</a>
+					<a href="http://www.edu.ro/">MEN</a>
+					<a href="https://www.isjbihor.ro/">ISJ Bihor</a>
+
+				</div>
+			</div>
+
+	</div>
+	<br>
+	<div id="scoala">
+		<img id="scoala" src="school.jpg" alt="scoala mea">
+		<img id="scari" src="scari.jpg" alt="scari">
+		<img id="teatru" src="teatru.jpg" alt="teatru">
+		<img id="lab" src="lab.jpg" alt="lab">
+	</div>
+	<div>
+		<font size=3><p align=center>Actul de înființare a liceului datează din 15 iunie 1919. La 1 august 1919 încep prenotările elevilor, în 2 octombrie are loc primul consiliu profesoral, iar în 5 octombrie se face inaugurarea solemnă a anului școlar, an purtător de semnificație istorică. Între anii 1920–1923 liceul parcurge o perioadă de tranziție, perioadă în care se trece la tipul de organizare a școlilor din România veche, prin înlocuirea programei maghiare din 1883 cu cea a lui Spiru Haret și în paralel prin înlocuirea limbii de predare maghiară cu cea română.<br><br><br>
+			Din 1923 până în 1939, liceul „E. Gojdu“ se înscrie în seria metamorfozelor pe care le-a străbătut tot învățământul liceal din România, remarcându-se prin activitatea desfășurată de catre profesorii școlii. Aceștia și-au dat seama că în acest oraș cu o cultură preponderent maghiară în acea perioadă, cu numeroase școli medii străine, românii așteaptă întărirea culturii noastre atât de oropsită și de oprimată în trecut. Corpul profesoral s-a achitat cu cinste de aceasta minune, fiind un animator al vieții culturale locale, fapt pentru care liceul și-a câștigat un frumos renume între liceele românesti din Transilvania și din țară.<br><br><br>
+
+Este demn de retinut că prima revistă școlară orădeană „Sf. Gheorghe“ a fost cea a liceului „Emanuil Gojdu“ și în care, după cum spune prof. Cornel Moga, elevii „vor scrie multe chestiuni de ordin moral-național, cultural, istoric, geografic“. Dar cea mai prestigioasă publicație a liceului a fost și va rămâne revista „Țara visurilor noastre“, primul număr al acesteia apărând la 1 decembrie 1937. Publicistul Ioan Bulgar, scria în ziarul „Drapelul“ din 2 aprilie 1945 : „Totdeauna «Țara visurilor noastre» a fost aceeași: dreaptă, umană, românească. Niciodată nu a alunecat. Acolo în revistă, s-a plâns, s-a dorit, dar mai ales s-a crezut mult. Au fost vremuri în care atât ne-a mai rămas. Și elevii au crescut acolo așa cum îi învăța profesorul“.<br><br><br>
+
+Astăzi, Colegiul Național „Emanuil Gojdu“ are un număr de 1000 elevi, cuprinși în invățămantul liceal și gimnazial.
+		</p>
+		</font>
+	</div>
+	<div id="footer">
+		<hr>
+		Copyright &copy; 2017 Lazar Paul.
+
+	</div>
+	</div>
+	</body>
+
+</html>
